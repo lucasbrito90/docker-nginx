@@ -6,6 +6,7 @@ networks:
 services:
   #NODE
   app:
+    container_name: app
     build:
       context: .
       dockerfile: Dockerfile
